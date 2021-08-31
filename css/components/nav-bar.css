@@ -13,5 +13,30 @@
     
 }
 .nav__link{
+    position: relative;
     color: #2e363e;
+}
+.nav__notification{
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    left: 15px;
+    bottom: 15px;
+    position: absolute;
+}
+.nav__comma{
+    background-color: tomato;
+    width: 9px;
+    height: 9px;
+    border-radius: 5px;
+    left: 33px;
+    bottom: 25px;
+    position: absolute;
+    display: flex;
 }
