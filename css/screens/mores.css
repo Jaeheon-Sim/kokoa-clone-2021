@@ -1,0 +1,50 @@
+.more-screen{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.more-icons{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-bottom: 25px;
+}
+.more-icons__icon {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.more-icons__icon i {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.suggestion{
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.8);
+    border-top: var(--main-border);
+}
+
+.more-icons__icon div{
+    border-radius: 50px;
+    color: red;
+    font-weight: bolder;
+    font-size: 40px;
+    position: absolute;
+    right: 4px;
+    bottom: 50px;
+}
+
+.more-icons__container{
+    display: flex;
+    margin-left: 25px;
+}
+
+.more-icons__icon span{
+    align-items: center;
+} 

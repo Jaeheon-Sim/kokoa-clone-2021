@@ -6,7 +6,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Chats - KaKaoTalk</title>
+        <title>Setting - KaKaoTalk</title>
     </head>
 
     <body>
@@ -15,11 +15,9 @@
                 <span>No Service</span>
                 <!-- wifi icon -->
                 <i class="fas fa-wifi"></i>
-                
             </div>
             <div class ="status-bar__column">
                 <span>18:43</span>
-
             </div>
             <div class ="status-bar__column">
                 <span>100%</span>
@@ -30,40 +28,48 @@
             </div>
         </div>
         
-        <header class="screen-header">
-            <h1 class="screen-header__title">Chats</h1>
-            <div class="screen-header__icons">
+        <header class ="setting-header">
+            <div class ="status-bar__icon">
+                <a href="more.html">
+                    <i class="fas fa-angle-left fa-2x"></i>
+                </a>
+            </div>
+            <div class ="setting-header__title">
+                <span>Settings</span>
+            </div>
+            <div class ="status-bar__icon">
                 <span><i class="fas fa-search fa-lg"></i></span>
-                <span></span><i class="far fa-comment-dots fa-lg"></i></span>
-                <span><i class="fas fa-music fa-lg"></i></span>
-                <span><i class="fas fa-cog fa-lg"></i></span>
             </div>
         </header>
-
-            <div class="friends-screen__channel">
-                <a href="chat.html">
-                <div class="user-component">
-                    <div class="user-component__column">
-                        <img src="C:\Users\zh032\OneDrive\문서\GitHub\kokoa-clone-2021\screenshots\안영인프사.png" class="user-component__avatar user-component__avatar--sm" />
-                        <div class="user-component__text">
-                            <h4 class="user-component__title">
-                                안영인         
-                            </h4>
-                            <h6 class="user-component__subtitle">
-                                야
-                            </h6>
-                        </div>
+        
+        <main class= "find-screen">
+            <ul class="settings-list">
+                <li class="settings__setting">
+                    <div class="settings__setting-column">
+                        <i class="fas fa-bullhorn"></i>
+                        <span>Notices</span>
                     </div>
-                    <div class="user-component__column">
-                        <span class="user-component__time">21:22</span>
-                        <div class="badge">
-                            1
-                        </div>
+                    <div class="settings__setting-column"></div>
+                </li>
+                <li class="settings__setting">
+                    <div class="settings__setting-column">
+                        <i class="fas fa-flask"></i>
+                        <span>Kakao Lab</span>
                     </div>
-                </div>
-            </a>
-        <!-- </main> -->
-    
+                    <div class="settings__setting-column"></div>
+                </li>
+                <li class="settings__setting">
+                    <div class="settings__setting-column">
+                        <i class="fas fa-info-circle"></i>
+                        <span>Version</span>
+                    </div>
+                    <div class="settings__setting-column">
+                        Latest Version
+                    </div>
+                </li>
+            </ul>
+        </main>
+        
         <nav class="nav">
             <ul class="nav__list">
                 <li class="nav__btn">
@@ -76,7 +82,7 @@
                         <span class="nav__notification badge">
                             1
                         </span>
-                        <i class="fas fa-comment fa-2x"></i>
+                        <i class="far fa-comment fa-2x"></i>
                     </a>
                 </li>
                 <li class="nav__btn">
@@ -89,9 +95,6 @@
                 </li>
             </ul>
         </nav>
-        
-            
-
             <script src="https://kit.fontawesome.com/041bbc8e49.js" crossorigin="anonymous"></script>
        
     </body>

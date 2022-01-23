@@ -2,6 +2,7 @@
    justify-content: space-between;
     display: flex;
     align-items: center;
+    margin-bottom: 1px;
 }
 .user-component__column{
     padding: var(--horizontal-space);
@@ -47,6 +48,10 @@
     display: block;
 }
 
+.user-component__subtitle i {
+    opacity: 0.8;
+    color: red;
+}
 
 .user-component__column:last-child{
     color: rgba(0, 0, 0, 0.4);
