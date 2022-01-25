@@ -11,9 +11,10 @@
     color: rgba(0,0,0,0.1);
 }
 
-/* .friends-screen{
-    padding:0px var(--horizontal-space);
-} */
+.friends-screen__channel a{
+    display: block;
+    justify-content: center;
+}
 .friends-screen__channel-header{
     padding-left: 30px;
     justify-content: space-between;

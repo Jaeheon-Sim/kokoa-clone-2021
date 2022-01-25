@@ -3,6 +3,11 @@
     justify-content: space-between;
     align-items: center;
     padding: 25px 20px 0px 20px;
+    
+}
+.setting-header__title{
+    position: relative;
+    right: -20px;
 }
 .setting-header__title span{
     font-size: 25px;
@@ -31,8 +36,16 @@
     justify-content: space-between;
 
 }
-
+.settings__setting:nth-child(2){
+    text-align: center;
+}
 .settings__setting:last-child{
     border-bottom: var(--main-border);
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
 }
 
+.settings__setting-column{
+    width: 33%;
+}
