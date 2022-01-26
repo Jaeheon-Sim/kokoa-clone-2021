@@ -78,7 +78,7 @@
 
 .message-row--own .message__bubble{
     border-radius: 10px;
-    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
     background-color: var(--yellow);
 }
 
@@ -94,4 +94,57 @@
 
 .message-continue{
     margin-left: 60px;
+}
+
+.reply{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    bottom:0%;
+    background-color: white;
+    justify-content: space-between;
+    padding: 5px 25px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.reply i {
+    opacity: 0.7;
+}
+.reply input {
+    padding-left: 10px;
+    height: 25px;
+    width: 100%;
+    border: var(--main-border);
+    border-radius: 20px;
+}
+
+.reply .reply__column:first-child{
+    width: 10%;
+}
+
+.reply .reply__column:last-child{
+    width: 90%;
+    position: relative;
+}
+
+.reply__column:last-child > i,
+.reply__column:last-child button{
+    position: absolute;
+    right: -15.5px;
+    top: 1px;
+}
+
+.reply__column:last-child > i{
+    right: 25px;
+    top: 6.5px;
+}
+
+.reply__column button {
+    background-color: var(--yellow);
+    border: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    opacity: 1;
 }
